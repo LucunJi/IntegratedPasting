@@ -6,4 +6,6 @@ public class BlockVariablestoreAdvanced extends BlockVariablestore {
     public BlockVariablestoreAdvanced(Properties properties) {
         super(properties);
     }
+
+
 }
