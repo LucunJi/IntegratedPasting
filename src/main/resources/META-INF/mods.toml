@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+#issueTrackerURL="http://my.issue.tracker/"
+[[mods]]
+modId="integratedpasting"
+version="${file.jarVersion}"
+displayName="IntegratedPasting"
+#updateJSONURL="http://myurl.me/"
+#displayURL="http://example.com/"
+#logoFile="integratedpasting.png"
+#credits="Thanks for this example mod goes to Java"
+authors="LucunJi"
+description='''
+Copy and paste your favourite integrated dynamics scripts.
+'''
+[[dependencies.integratedpasting]]
+   modId="forge"
+   mandatory=true
+   versionRange="[36,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.integratedpasting]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.16.5,1.17)"
+   ordering="NONE"
+   side="BOTH"
